@@ -2,7 +2,7 @@
     "title": "SHT3x",
     "category": "temperature and humidity sensor",
     "published-maven": {
-        "maven-url": "https://bintray.com/sensirion/AndroidThingsDrivers",
+        "maven-url": "https://dl.bintray.com/sensirion/AndroidThingsDrivers",
         "groupid": "com.sensirion.android.things.drivers",
         "artifactid": "driver-sht3x"
     },
