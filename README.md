@@ -26,6 +26,6 @@ Current drivers
 <!-- DRIVER_LIST_START -->
 Driver | Type | Usage (add to your gradle dependencies) | Note
 :---:|:---:| --- | ---
-[sht3x](sht2x) | Temperature and Humidity Sensor | `com.sensirion.android.things.drivers:sht3x:1.0` | [changelog](sht3x/CHANGELOG.md)
+[sht3x](sht2x) | Temperature and Humidity Sensor | `com.sensirion.android.things.drivers:driver-sht3x:1.0` | [changelog](sht3x/CHANGELOG.md)
 <!-- DRIVER_LIST_END -->
 
