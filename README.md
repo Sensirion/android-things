@@ -15,7 +15,7 @@ Add the appropriate dependency for the driver you want to use, e.g.:
 
 ```
 dependencies {
-    implementation 'com.sensirion.android.things.drivers:sht3x:1.0'
+    implementation 'com.sensirion.android.things.drivers:driver-sht3x:1.0'
     ...
 }
 ```
