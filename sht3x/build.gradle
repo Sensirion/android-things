@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 27
@@ -21,7 +22,28 @@ android {
     }
 }
 
+publish {
+
+    def groupProjectID = 'com.sensirion.android.things.drivers'
+    def artifactProjectID = 'driver-sht3x'
+    def publishVersionID = '1.0'
+
+    userOrg = 'sensirion'
+    repoName = 'AndroidThingsDrivers'
+    groupId = groupProjectID
+    artifactId = artifactProjectID
+    publishVersion = publishVersionID
+    desc = 'Android Things user space driver for Sensirion\'s SHT3x sensor.'
+    website = 'https://github.com/Sensirion/android-things'
+}
+
 dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
     compileOnly 'com.google.android.things:androidthings:1.0'
+}
+
+allprojects {
+    tasks.withType(Javadoc) {
+        options.addStringOption('Xdoclint:none', '-quiet')
+    }
 }
