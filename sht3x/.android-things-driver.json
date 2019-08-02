@@ -1,0 +1,26 @@
+{
+    "title": "SHT3x",
+    "category": "temperature and humidity sensor",
+    "published-maven": {
+        "maven-url": "https://bintray.com/sensirion/AndroidThingsDrivers",
+        "groupid": "com.sensirion.android.things.drivers",
+        "artifactid": "driver-sht3x"
+    },
+    "compatible-with": [
+        {
+            "title": "SHT3x",
+            "url": "https://www.sensirion.com/sht3x",
+            "photo": "https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Pictures/1_Products/Humidity_Sensors/Sensirion_Humidity_Sensors_SHT3x.png"
+        },
+        {
+            "title": "Adafruit SHT31-D",
+            "url": "https://www.adafruit.com/product/2857",
+            "photo": "https://cdn-shop.adafruit.com/970x728/2857-04.jpg"
+        },
+        {
+             "title": "SHT click",
+             "url": "https://www.mikroe.com/sht-click",
+             "photo": "https://cdn1-shop.mikroe.com/img/product/sht-click/sht-click-large_default-1.jpg"
+        }
+    ]
+}
