@@ -18,6 +18,11 @@
             "photo": "https://cdn-shop.adafruit.com/970x728/2857-04.jpg"
         },
         {
+             "title": "Grove SHT35",
+             "url": "https://www.seeedstudio.com/Grove-I2C-High-Accuracy-Temp-Humi-Sensor-SHT35.html",
+             "photo": "https://www.seeedstudio.site/media/catalog/product/cache/ef3164306500b1080e8560b2e8b5cc0f/h/t/httpsstatics3.seeedstudio.comseeedfile2018-10bazaar951701_11400x1050.jpg"
+        },
+        {
              "title": "SHT click",
              "url": "https://www.mikroe.com/sht-click",
              "photo": "https://cdn1-shop.mikroe.com/img/product/sht-click/sht-click-large_default-1.jpg"
